@@ -1,0 +1,11 @@
+package com.example.form;
+
+import lombok.Data;
+/**
+ * ユーザー一覧画面の属性クラス
+ */
+@Data
+public class UserListForm {
+	private String userId;
+	private String userName;
+}
